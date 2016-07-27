@@ -5,8 +5,7 @@ class ADC
 {
 public:
     ADC ();
-    ~ADC ();
-    float value () const;
+    float value (int channel) const;
 
 private:
     class ADCPrivate;

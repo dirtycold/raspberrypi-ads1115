@@ -21,3 +21,5 @@ SOURCES += main.cpp \
 
 HEADERS += \
     adc.h
+
+LIBS += -lwiringPi
