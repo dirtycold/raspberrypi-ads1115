@@ -8,12 +8,12 @@
 // Just works, I don't know why ;-)
 static const int base = 100;
 
-ADC::ADC()
+ADS1115::ADS1115()
 {
     ads1115Setup (base, 0x48);
 }
 
-float ADC::value(int channel) const
+float ADS1115::value(int channel) const
 {
     float voltage (NAN);
 
